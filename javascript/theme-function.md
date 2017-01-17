@@ -23,8 +23,8 @@ Javascript theme functions are now using `Drupal.theme` directly.
       return markup;
     };
 
-    var example = Drupal.theme('example'); // Hello world!
-    var another_example = Drupal.theme('anotherExample', 'Mr.', 'Dries'); // Hello Mr. Dries!
+    var example = Drupal.theme('example'); // <p>Hello world!</p>
+    var another_example = Drupal.theme('anotherExample', 'Mr.', 'Dries'); // <p>Hello Mr. Dries!</p>
 
 **Drupal 8:**
 
@@ -38,8 +38,8 @@ Javascript theme functions are now using `Drupal.theme` directly.
       return markup;
     };
 
-    var example = Drupal.theme('example'); // Hello world!
-    var another_example = Drupal.theme('anotherExample', 'Mr.', 'Dries');
+    var example = Drupal.theme('example'); // <p>Hello world!</p>
+    var another_example = Drupal.theme('anotherExample', 'Mr.', 'Dries'); // <p>Hello Mr. Dries!</p>
 
 #### Declaring several theme functions
 
